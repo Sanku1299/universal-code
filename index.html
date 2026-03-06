@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Logistics</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="root">
+        <section id="HeroSection" style="background-image: url('./images/header-bg.png');">
+            <img alt="Header Logo" src="./images/header-logo.png">
+            <h2>Your Trusted Logistics Partner – Delivering Speed, Safety &amp; Reliability</h2>
+            <p>From local shipments to global deliveries, we ensure your cargo reaches its destination on time, every
+                time.</p>
+            <button class="secondary-btn">Track Your Shipment</button>
+        </section>
+        <section id="TrackingSection">
+            <h1>Track Your Shipment Easily</h1>
+            <p class="text-black">Enter your Air Waybill (AWB) number below to view the latest status of your shipment.
+            </p><input id="awbInput" placeholder="Enter your AWB Number here" type="text" value=""><button id="trackBtn"
+                class="primary-btn">Track
+                Now</button>
+            <div id="result" class="awb-single-search-result-container"></div>
+        </section>
+        <section id="WhoWeAreSection" style="background-image: url('./images/who-we-are-bg.png');">
+            <h1>Who We Are</h1>
+            <p class="text-black">Universal Logistics, we are redefining logistics with precision, transparency, and
+                customer-first service. Our team brings years of experience in freight forwarding, cargo handling, and
+                supply chain management — ensuring your goods move smoothly from point A to point B.</p>
+            <p class="text-black">We specialize in door-to-door delivery, customs clearance, warehousing, standard
+                packing and last-mile logistics. Whether it’s a single parcel or bulk freight, our mission is to provide
+                fast, safe, and cost-effective shipping solutions.</p>
+        </section>
+        <section id="ServicesSection">
+            <h1>Services</h1>
+            <div class="services-container">
+                <div class="single-service">
+                    <div><img alt="Service" src="./images/express-delivery.png"></div>
+                    <h6>Express Delivery</h6><span>Guaranteed on-time delivery with real-time tracking updates.</span>
+                </div>
+                <div class="single-service">
+                    <div><img alt="Service" src="./images/international-freight.png"></div>
+                    <h6>International Freight Forwarding</h6><span>Seamless import/export solutions with expert customs
+                        handling.</span>
+                </div>
+                <div class="single-service">
+                    <div><img alt="Service" src="./images/warehousing.png"></div>
+                    <h6>Warehousing &amp; Storage</h6><span>Secure storage options to keep your goods safe until
+                        delivery.</span>
+                </div>
+                <div class="single-service">
+                    <div><img alt="Service" src="./images/packaging.png"></div>
+                    <h6>Packaging</h6><span>We deliver our products with premium packaging and utmost safety.</span>
+                </div>
+                <div class="single-service">
+                    <div><img alt="Service" src="./images/last-mile.png"></div>
+                    <h6>Last Mile Delivery</h6><span>Efficient local delivery network for faster turnaround.</span>
+                </div>
+                <div class="single-service">
+                    <div><img alt="Service" src="./images/personalized-support.png"></div>
+                    <h6>Personalized Support</h6><span>Dedicated account managers for all your shipping needs.</span>
+                </div>
+            </div>
+        </section>
+        <section id="WhyChooseUsSection">
+            <h1>Why Choose Us?</h1>
+            <div><img alt="Why Choose Us" src="./images/why-choose-us.png"></div>
+            <div>
+                <div><img alt="Blue Tick" src="./images/blue-tick.png">
+                    <p>Reliability: On-time deliveries with complete transparency.</p>
+                </div>
+                <div><img alt="Blue Tick" src="./images/blue-tick.png">
+                    <p>Flexibility: Tailored solutions for every shipment size.</p>
+                </div>
+                <div><img alt="Blue Tick" src="./images/blue-tick.png">
+                    <p>Technology-Driven: Easy AWB tracking for customers.</p>
+                </div>
+                <div><img alt="Blue Tick" src="./images/blue-tick.png">
+                    <p>Experienced Team: Logistics experts at your service.</p>
+                </div>
+                <div><img alt="Blue Tick" src="./images/blue-tick.png">
+                    <p>Customer Support: 24X7 Customer support available.</p>
+                </div>
+            </div>
+        </section>
+        <section id="GetInTouchSection">
+            <h1>Get In Touch</h1>
+            <p class="text-black">Need to ship something? Have a question about your delivery? We’re here to help.</p>
+            <div class="contact-info-container">
+                <div>
+                    <div>Address:</div>
+                    <div>A-104, Sukhmani Chs Ltd B5, Yashodham Dindoshi Bus Depot Goregaon East Mumbai-400063</div>
+                </div>
+                <div>
+                    <div>Warehouse:</div>
+                    <div>Shop No2 God's Gift Tower NM Joshi Marg Lower Parel West Mumbai-400013<br>Shop no-5, Aspen
+                        garden near Sharma industrial estate goregaon East Mumbai-400063</div>
+                </div>
+                <div>
+                    <div>Phone:</div>
+                    <div>7738550022 / 9867717057 / 9892533522</div>
+                </div>
+                <div>
+                    <div>Email:</div>
+                    <div>sushiluniversal2@gmail.com / arvinduniversal1@gmail.com</div>
+                </div>
+            </div>
+        </section>
+        <section id="ContactUsSection">
+            <h1>Contact Us</h1>
+            <div><img alt="Contact Us" src="./images/contact.png"></div>
+            <form><input placeholder="Enter Your Full Name" required="" minlength="3" maxlength="50" type="text"
+                    name="name"><input placeholder="Enter Your Email" required="" minlength="5" maxlength="50"
+                    type="email" name="email"><input placeholder="Enter Your Phone Number" required="" minlength="10"
+                    maxlength="10" type="tel" name="phone"><textarea name="message" placeholder="Enter Your Message"
+                    required="" minlength="3" maxlength="500"></textarea><button class="primary-btn" type="submit">Send
+                    Message</button></form>
+        </section>
+        <footer>
+            <div class="footer-logo-container"><img alt="Footer Logo" src="./images/footer-logo.png"></div>
+            <div class="footer-links-container">
+                <ul>
+                    <li>Home</li>
+                    <li>Track Shipment</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms &amp; Conditions</li>
+                </ul>
+            </div>
+            <p>© 2025 Universal Logistics. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
