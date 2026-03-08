@@ -27,7 +27,7 @@ async function trackShipment() {
 
     try {
 
-        const response = await fetch(`http://localhost:7777/track/${awb}`);
+        const response = await fetch(`https://universal-backend-babm.onrender.com/track/${awb}`);
 
         const data = await response.json();
 
